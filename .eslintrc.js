@@ -5,10 +5,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json'],
   },
-  plugins: [
-    'prettier',
-    '@typescript-eslint',
-  ],
+  plugins: ['prettier', '@typescript-eslint'],
   extends: [
     'airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
@@ -48,5 +45,5 @@ module.exports = {
     '@typescript-eslint/promise-function-async': 'error',
     '@typescript-eslint/sort-type-union-intersection-members': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
-  }
+  },
 };

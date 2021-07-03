@@ -850,7 +850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^16.0.0":
   version: 16.0.0
   resolution: "@types/node@npm:16.0.0"
   checksum: 0302e376d5272170478468f023a34dd8b4da998bee02bddfed9b0f1c80add77d02fe9c737fad8943ab2dc981601b71c5714b9f971560d5519c1c814cf2c8bc50
@@ -1332,6 +1332,7 @@ __metadata:
   resolution: "backstop-mover@workspace:."
   dependencies:
     "@types/jest": ^26.0.23
+    "@types/node": ^16.0.0
     "@typescript-eslint/eslint-plugin": ^4.28.1
     "@typescript-eslint/parser": ^4.28.1
     eslint: ^7.29.0
@@ -1346,6 +1347,8 @@ __metadata:
     prettier: ^2.3.2
     ts-jest: ^27.0.3
     typescript: ^4.3.5
+  bin:
+    backstop-replace: bin/replace
   languageName: unknown
   linkType: soft
 

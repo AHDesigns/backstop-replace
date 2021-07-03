@@ -1,5 +1,11 @@
-const a: number = 'foo'
+/* eslint-disable no-console */
 
-export function foo(a: number) {return a * 2}
-
-console.log(a);
+// eslint-disable-next-line import/prefer-default-export
+export async function main(args: readonly string[]): Promise<void> {
+  console.log('args:\n');
+  args.forEach((x) => {
+    console.log(x);
+  });
+  const msg = await Promise.resolve('\ndone');
+  console.log(msg);
+}

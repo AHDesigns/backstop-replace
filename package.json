@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "backstop-replace": "bin/replace"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.prod.json",
+    "build:watch": "yarn build --watch",
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
+  },
   "dependencies": {
     "fp-ts": "^2.10.5",
     "io-ts": "^2.2.16",
@@ -10,6 +19,7 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
+    "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
     "eslint": "^7.29.0",
@@ -21,5 +31,11 @@
     "jest": "^27.0.6",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.3"
+  },
+  "volta": {
+    "node": "14.17.2"
+  },
+  "resolutions": {
+    "backstop-mover": "portal:/Users/adh23/dev/backstop-mover"
   }
 }

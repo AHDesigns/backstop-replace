@@ -1,7 +1,8 @@
-import { foo } from './'
+import { main } from '.';
 
 describe('tests', () => {
-  it('should run', () => {
+  it('should run', async () => {
+    await main();
     expect(true).toBe(true);
-  })
-})
+  });
+});

@@ -1,5 +1,6 @@
 module.exports = {
   preset: 'ts-jest',
+  modulePathIgnorePatterns: ['<rootDir>/dist'],
   collectCoverage: false,
   clearMocks: true,
   // moduleNameMapper: {
