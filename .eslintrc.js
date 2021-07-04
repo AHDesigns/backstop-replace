@@ -45,5 +45,7 @@ module.exports = {
     '@typescript-eslint/promise-function-async': 'error',
     '@typescript-eslint/sort-type-union-intersection-members': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
+    // going full FP so no need for this
+    '@typescript-eslint/no-floating-promises': 'off',
   },
 };

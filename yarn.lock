@@ -1346,6 +1346,7 @@ __metadata:
     jest: ^27.0.6
     prettier: ^2.3.2
     ts-jest: ^27.0.3
+    ts-pattern: ^3.2.1
     typescript: ^4.3.5
   bin:
     backstop-replace: bin/replace
@@ -5186,6 +5187,13 @@ fsevents@^2.3.2:
   bin:
     ts-jest: cli.js
   checksum: a63f3a8620a16335d745f22377a9cc118129d28a5b122c609a7c6aabbb8048c85733c771a0dd39b136e8a75401473409452bdd3c5b9e3b85317c2e3f3ac03267
+  languageName: node
+  linkType: hard
+
+"ts-pattern@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "ts-pattern@npm:3.2.1"
+  checksum: 55c0c472e0be635800a728b295bed92f9c1e0cff96dc118850c1aea5467ed1bc5bdec16c191a8b497fb60a9df89475e04afca21cc0496070fd81e52397adefa0
   languageName: node
   linkType: hard
 
